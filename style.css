@@ -1,0 +1,84 @@
+
+ body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(180deg, #ff4500, #ff6600);
+      color: white;
+      text-align: center;
+    }
+
+
+    .logo {
+      margin-top: 20px;
+    }
+
+
+    h1 {
+      margin: 10px 0;
+      font-size: 2rem;
+    }
+
+    .search-box {
+      margin: 20px auto;
+      display: flex;
+      justify-content: center;
+    }
+
+    .search-box input {
+      padding: 10px;
+      width: 400px;
+      border-radius: 6px 0 0 6px;
+      border: none;
+      outline: none;
+      font-size: 1rem;
+    }
+
+    .search-box button {
+      padding: 10px;
+      border: none;
+      background: white;
+      border-radius: 0 6px 6px 0;
+      cursor: pointer;
+      font-size: 1rem;
+    }
+
+    .search-box button:hover {
+      background: #ddd;
+    }
+
+    /* Subtítulo */
+    .sub {
+      font-size: 0.9rem;
+      margin-bottom: 20px;
+    }
+
+    /* Grid de Pokémon */
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, 150px);
+      gap: 20px;
+      justify-content: center;
+    }
+
+    .card {
+      background: #f1f1f1;
+      color: black;
+      padding: 20px;
+      border-radius: 10px;
+      text-align: center;
+      transition: transform 0.2s;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+    }
+
+    .card img {
+      width: 85px;
+      height: 85px;
+    }
+
+    .card p {
+      margin-top: 10px;
+      font-weight: bold;
+    }
